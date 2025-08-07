@@ -1,0 +1,274 @@
+header {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(247, 9, 9);
+  width: 100%;
+  height: 200px;
+  background-color: #7f0f41;
+  
+
+  > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+
+    > button {
+      padding: 4px 7px;
+      border: 0;
+      border-radius: 5px;
+      cursor: pointer;
+
+      > i {
+        font-size: 40px;
+
+        &:last-of-type {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.submenu {
+  background-color: #45152a;
+  position:sticky;
+  
+  margin-left: -40px;
+  opacity: 0;
+  transition: 0.3s;
+  overflow: hidden;
+  z-index: 2;
+
+  > li {
+    list-style: none;
+
+    > a {
+      display: block;
+      padding: 12px 0 12px 25px;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-size: larger;
+      transition: 0.3;
+      &:hover {
+        background-color: #ff6365;
+      }
+    }
+  }
+}
+.imgh {
+  width: 150px;
+}
+
+.alert {
+    width: 350px;
+    padding: 10px;
+    height: 250px;
+    background-color:rgb(202, 11, 11);
+    border-radius: 10px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    
+
+    transition: .7s;
+    .btbt1{
+ background-color:rgb(208, 10, 10);
+    }
+}
+.sec1 {
+  background-image: url(IMG/hero-background-full-scaled.jpg);
+  height: 100vh;
+  object-fit: cover;
+  object-position: top;
+  padding: 20px;
+  background-size: cover;
+  margin-top: -430px;
+  z-index: 0;
+
+  .btnc {
+    height: 55px;
+    background-color: #7f0f41;
+    color: white;
+    font-size: larger;
+
+    &:hover {
+      background-color: #ff6365;
+    }
+  }
+}
+.hhh {
+  font-size: 90px;
+  font-family: "Libertinus Serif", serif;
+}
+.sec2 {
+  background-color: rgb(255 255 255);
+  height: 100vh;
+  margin-top: 80px;
+}
+.div1 {
+  background-color: rgb(232, 201, 207);
+  width: 370px;
+  height: 350px;
+  border-radius: 10px;
+  padding: 0;
+
+  > img {
+    width: 30%;
+  }
+  > button {
+    height: 40px;
+    background-color: #7f0f41;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    width: 100%;
+    &:hover {
+      background-color: #ff6365;
+    }
+  }
+}
+.h7 {
+  font-family: "Libertinus Serif", serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #7f0f41;
+}
+.h77 {
+  font-size: 25px;
+  font-family: "Libertinus Serif", serif;
+  text-wrap: nowrap;
+}
+.select {
+  margin-top: 90px;
+}
+.h78 {
+  font-size: 25px;
+  font-family: "Libertinus Serif", serif;
+  color: hsl(333, 79%, 28%);
+  display: none;
+}
+
+.swiper {
+  width: 80%;
+  height: 450px;
+  border-radius: 25px;
+}
+
+.swiper-slide {
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .swiper {
+    margin-top: 650px;
+    width: 90%;
+  }
+}
+
+.ss {
+  object-fit: cover;
+}
+.sec4 {
+  background-image: url(IMG/subscribe-background-scaled.jpg);
+
+  background-position: bottom;
+  background-size: cover;
+
+  margin-top: 110px;
+  height: 130vh;
+  width: 100%;
+
+  .hh2 {
+    color: #45152a;
+    font-family: "Libertinus Serif", serif;
+    font-size: 65px;
+  }
+  .is {
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 6px;
+    &:focus {
+      border: 2px solid #45152a;
+      outline: none;
+    }
+  }
+  .btis {
+    background-color: #7f0f41;
+    color: white;
+    height: 50px;
+    &:hover {
+      background-color: #ff6365;
+    }
+  }
+}
+.sec5 {
+  height: 100vh;
+}
+.hhh2 {
+  font-family: "Libertinus Serif", serif;
+  font-size: 50px;
+}
+.mth {
+  margin-top: 150px;
+}
+.bbb {
+  height: 40px;
+  background-color: #7f0f41;
+  color: white;
+  font-size: large;
+}
+.sec6 {
+  background-image: url(IMG/vineyard-tours-background-scaled.jpg);
+  height: 70vh;
+  background-size: cover;
+
+  @media (max-width: 768px) {
+    margin-top: 700px;
+  }
+}
+.h2h2 {
+  font-size: 70px;
+  font-family: "Libertinus Serif", serif;
+}
+.btbt {
+  height: 50px;
+  background-color: #7f0f41;
+  color: white;
+  font-size: small;
+  border: none;
+}
+.imm {
+  border-radius: 10px;
+}
+footer {
+  margin-top: 60px;
+  background-image: url(IMG/footer-background-scaled.jpg);
+  height: 70vh;
+  background-size: cover;
+
+  .ul1 {
+    list-style: none;
+    color: aliceblue;
+    font-size: large;
+  }
+}
+.bt2 {
+  height: 40px;
+  color: #eee;
+  background-color: #370d1f;
+  margin-top: 20px;
+}
+.a2 {
+  &:hover {
+    color: #ff6365;
+  }
+}
